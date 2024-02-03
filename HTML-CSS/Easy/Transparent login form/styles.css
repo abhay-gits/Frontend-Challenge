@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: URL("/HTML-CSS/Easy/Transparent\ login\ form/assets/bg.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container{
+    background-color: rgba(1, 1, 1, 0.61);
+    width: 60vw;
+    height: 70vh;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.container h1{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container form input{
+    width: 95%;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: rgba(146, 141, 141, 0.61);
+    border: none;
+    border: 2px solid rgb(58, 104, 161);
+    color: white;
+    border-radius: 5px;
+}
+
+.container form label{
+    margin-top: 10px;
+}
+
+.valid{
+    color: green;
+}
+.inValid{
+    color: red;
+}
+
+.container form input:focus{
+    outline-color: green;
+}
+
+.container form button{
+    width: 95%;
+    height: 35px;
+    margin-top: 20px;
+    background-color: rgba(58, 104, 161, 0.61);
+    border: 2px solid rgb(58, 104, 161);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
